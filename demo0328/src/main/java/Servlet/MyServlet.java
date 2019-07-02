@@ -26,6 +26,6 @@ public class MyServlet implements Servlet {
 
     @Override
     public void destroy() {
-
+        System.out.println("servlet销毁了");
     }
 }
